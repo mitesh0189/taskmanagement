@@ -1,0 +1,183 @@
+ /* signup css start  */
+ .signup {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signup-content {
+    width: 57%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.signup-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-demo {
+    outline: 0 !important;
+    border: none;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.input-demo::placeholder {
+    padding: 5px;
+}
+
+.data {
+    position: relative;
+    border-bottom: 2px solid slategray !important;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.input:focus+.icon {
+    opacity: 0;
+}
+
+.btn {
+    margin-right: 20px !important;
+}
+
+.sign-img {
+    width: 400px;
+    height: 400px;
+}
+
+.alredy {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* signup css end */
+
+
+/* login css start */
+@media only screen and (min-width:1200px) {
+    .login {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .login-content {
+        width: 57%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .login-text {
+        padding: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .data-2 {
+        border-bottom: 2px solid slategray;
+        width: 70%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .input-demo {
+        width: 90%;
+        border: none;
+        outline: 0;
+
+    }
+
+    .input-demo::placeholder {
+        padding: 5px;
+    }
+
+    .icon {
+        position: absolute;
+
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+
+    .btn {
+        margin-left: 10%;
+    }
+
+    .signin-img {
+        width: 300px;
+        padding: 10px;
+        margin-left: 13%;
+        height: 400px;
+    }
+
+}
+/* login css end */
+
+/* Home css part start */
+.home-main{
+    height: 100vh;
+  background: linear-gradient(
+    skyblue 0%, 
+    skyblue 100%, 
+    whitesmoke 50%, 
+    whitesmoke 100%
+  );
+   
+      background-color: skyblue;
+        background-image: url('../public/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      position: relative;
+}
+.welcome-home{
+    padding-top: 17%;
+    text-align: center;
+}
+.wel-dev{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-transform: capitalize;
+}
+.weare{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+/* Home css part end */
+
+
+/* header css start */
+.navbar-brand{
+    font-family: yes;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: cyan!important;
+    font-size: 35px!important;
+}
+@font-face {
+    font-family: yes;
+    src: url("../src/component/layout/cakecafe/More\ Info.txt");
+}
+.nav-link{
+        color: white!important;
+        font-size: 18px;
+        font-weight: 500;
+}
+.nav-link:hover{
+    background-color: blue;
+    color: white;
+    transition: 2s all linear;
+    border-radius: 10px;
+}
